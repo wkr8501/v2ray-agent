@@ -26,4 +26,4 @@
 # 4.修改客户端
 - 修改客户端端口部分【端口修改为中转IP的端口，例如上述的12187】
 - 其余客户端类似，在保证tcp+vmess正常使用的情况下配置流量转发服务，客户端只需要修改地址为转发的IP和端口即可。
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/Quantumult_Setting_vmess.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/Quantumult_Setting_vmess.png" width=400>

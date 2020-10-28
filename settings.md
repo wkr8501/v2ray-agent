@@ -99,7 +99,7 @@ root      4560  1287  0 03:04 pts/0    00:00:00 grep --color=auto v2ray
 # 执行下方命令查看nginx是否启动，
 ps -ef|grep nginx
 ``
-root       762     1  0 02:20 ?        00:00:00 nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+root       762     1  0 02:20 ?        00:00:00 nginx: master_backup process /usr/sbin/nginx -c /etc/nginx/nginx.conf
 nginx      763   762  0 02:20 ?        00:00:00 nginx: worker process
 root      4562  1287  0 03:04 pts/0    00:00:00 grep --color=auto nginx
 ```

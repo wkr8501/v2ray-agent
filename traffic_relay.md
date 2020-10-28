@@ -21,7 +21,7 @@
 ## 1.V2Ray(Vmess/VLESS)+TCP+TLS[推荐VLESS]
 ### 1.添加普通转发[协议tcp]
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_add_01.png" width=800>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_add_01.png" width=800>
 
 ### 2.填写ip+端口号
 
@@ -32,10 +32,10 @@ ip:port
 103.11.119.22:443
 ```
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_add_02.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_add_02.png" width=400>
 
 ### 3.添加完毕后会给分配ip/域名+port
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_show_01.png" width=600>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_show_01.png" width=600>
 
 ### 4.配置客户端
 - 地址位置填写wikihost分配的ip/域名
@@ -45,18 +45,18 @@ ip:port
 
 #### 1.Shadowrocket[VLESS]
 - Peer名称 需填写你的域名
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_Shadowrocket.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_Shadowrocket.png" width=400>
 
 #### 2.V2rayU[Vmess]
 - tls servername填写你的域名
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_V2RayU.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_V2RayU.png" width=400>
 
 #### 3.V2RayN
 - 暂无
 
 #### 4.V2RayNG
 - 伪装域名需填写你的域名
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/wikihost/wikihost_V2RayNG.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/wikihost/wikihost_V2RayNG.png" width=400>
 
 ## 2.TCP[IPLC专属]
 - [wikihost添加步骤与TCP+TLS相同](添加普通转发协议tcp)
@@ -64,7 +64,7 @@ ip:port
 - 修改 地址+端口 为wikihost分配的 ip/域名+端口 即可
 - 加密不建议选择none
 - 其余客户端相同
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/Quantumult_Setting_vmess.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/Quantumult_Setting_vmess.png" width=400>
 
 ## 3.WS+TLS[不推荐]
 - [wikihost添加步骤与TCP+TLS相同](添加普通转发协议tcp)
@@ -75,28 +75,28 @@ ip:port
 - 1.参考下图
 - 2.address、端口部分填写wikihost分配的ip和端口，host部分填写科学上网的域名
 - 3.tls servername 同样填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 v2rayU.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 v2rayU.png' width=400/>
 
 ### 2.Quantumult
 - 1.参考下图
 - 2.地址、端口部分填写wikihost分配的ip和端口
 - 3.Host部分填写科学上网的域名
 - 4.请求头-->Host部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 Quantumult01.png' width=400/>
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 Quantumult02.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 Quantumult01.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 Quantumult02.png' width=400/>
 
 ### 3.ShadowRocket
 - 1.参考下图
 - 2.地址、端口部分填写wikihost分配的ip和端口
 - 3.注意混淆部分->Host部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 ShadowRocket01.png' width=400/>
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 ShadowRocket02.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 ShadowRocket01.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 ShadowRocket02.png' width=400/>
 
 ### 4.v2rayN
 - 1.参考下图
 - 2.地址、端口部分填写wikihost分配的ip和端口
 - 3.注意伪装域名部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 v2rayN.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 v2rayN.png' width=400/>
 
 ## 4.Trojan+TCP+TLS
 - 暂无

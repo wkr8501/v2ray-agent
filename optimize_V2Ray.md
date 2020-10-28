@@ -12,7 +12,7 @@
 ## 最优ip测试脚本
 ```
 # 晚高峰(23点以后)建议测试次数设置10次以上，默认为5次
-bash <(curl -L -s https://raw.githubusercontent.com/mack-a/v2ray-agent/master/find_best_cdn_ip.sh)
+bash <(curl -L -s https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/find_best_cdn_ip.sh)
 ```
 
 ## 脚本todoList
@@ -43,28 +43,28 @@ domain08.qiu4.ml|1.0.0.83|104.16.160.100|www.digitalocean.com
 - 2.address部分填写自定义ip或者上方提供的域名，host部分填写科学上网的域名
 - 3.tls servername 同样填写科学上网的域名
 - 4.如果多个自选ip，则复制刚刚添加好的配置，修改address部分即可。
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 v2rayU.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 v2rayU.png' width=400/>
 
 ### 2.Quantumult
 - 1.参考下图
 - 2.地址部分填写自选ip或者上方提供的域名
 - 3.Host部分填写科学上网的域名
 - 4.请求头-->Host部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 Quantumult01.png' width=400/>
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 Quantumult02.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 Quantumult01.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 Quantumult02.png' width=400/>
 
 ### 3.ShadowRocket
 - 1.参考下图
 - 2.地址部分填写自选ip或者上方提供的域名
 - 3.注意混淆部分->Host部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 ShadowRocket01.png' width=400/>
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 ShadowRocket02.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 ShadowRocket01.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 ShadowRocket02.png' width=400/>
 
 ### 4.v2rayN
 - 1.参考下图
 - 2.地址部分填写自选ip或者上方提供的域名
 - 3.注意伪装域名部分填写科学上网的域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare自选ip 手动更改 v2rayN.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare自选ip 手动更改 v2rayN.png' width=400/>
 
 ## 5.优选ip
 - 以下仅代表个人测试，不代表所有的都可以流畅使用。
@@ -121,12 +121,12 @@ f1g1ns2.dnspod.net
 ### 4.添加域名
 - 添加完域名后需要等待修改的Nameserver生效
 
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/dnspod添加域名.png' width=500/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/dnspod添加域名.png' width=500/>
 
 ### 5.登入CloudFlare Partner平台
 - 1.[萌精灵](https://cdn.moeelf.com/)【本教程使用】
 - 2.添加域名
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/moeelf添加域名.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/moeelf添加域名.png' width=400/>
 
 - 3.添加解析记录
 - 记录名---填写你要配置的二级域名【严格来说是三级域名】
@@ -134,25 +134,25 @@ f1g1ns2.dnspod.net
 - 记录内容为回源地址（服务器的真实ip），CloudFlare只支持网址，不支持直接ip。
 - CDN---开启
 
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/moeelf添加DNS记录.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/moeelf添加DNS记录.png' width=400/>
 
 - 记录内容中的xxx.xxx替换成自己域名的部分【例如：你的域名是www.example.com,替换成cf.test.example.com】，提交后进入管理中心会出现下图
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/moeelfDNS管理.png' width=500/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/moeelfDNS管理.png' width=500/>
 
 ### 6.登入[dnspod](https://www.dnspod.cn/)
 - DNS管理->我的域名->添加记录
 - 这里添加CNAME的意义在于防止CloudFlare翻车【CloudFlare不允许使用ip接入，只允许CNAME】
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/dnspod添加记录.png' width=500/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/dnspod添加记录.png' width=500/>
 
 ### 7.验证是否添加成功
 - 1.登录[CloudFlare](https://CloudFlare.com)
 - 2.点击域名->SSL/TLS->Edge Certificates【参考下图】如果存在则添加正确
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CloudFlare SSLTLS示例图.png' width=500/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CloudFlare SSLTLS示例图.png' width=500/>
 
 ### 8.自定义CloudFlare ip【示例】
 - 新添加的记录为类型为A、线路类型是联通、记录值是CloudFlare的ip【多播】
 - 这里可以添加不同的线路类型来针对不同的网络环境。
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/dnspod添加记录自定义ip.png' width=500/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/dnspod添加记录自定义ip.png' width=500/>
 
 ## 3.dnsmasq 实现CNAME方式
 - 不建议使用，有几率会被警告，UDP 53端口在没有运营资质的情况下不可以使用
@@ -255,7 +255,7 @@ mobile.xxx.com. 0	IN	A	198.41.214.162
 - 4.加速类型选择流媒体点播加速
 - 5.关闭过滤参数
 - 6.等待部署完成
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/腾讯CDN示例图01.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/腾讯CDN示例图01.png' width=400/>
 
 ##### 2.配置HTTPS证书
 - 1.点击配置好的域名-高级设置-HTTPS配置
@@ -273,7 +273,7 @@ mobile.xxx.com. 0	IN	A	198.41.214.162
 - 4.解析线路默认即可
 - 5.记录值填写 腾讯CDN-点击域名-基本配置-CNAME值
 
-<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/CDN域名解析 CNAME.png' width=400/>
+<img src='https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/CDN域名解析 CNAME.png' width=400/>
 
 # 3.CDN IP【来源于网络】
 ## 1.移动
@@ -383,7 +383,7 @@ mobile.xxx.com. 0	IN	A	198.41.214.162
 > (这里贴一下V2Ray白话文指南具体说明)[https://guide.v2fly.org/advanced/cdn.html]
 ## 1.修改 Security Level
 - Firewall->Settings->Security Level->Essentially Off
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/firewall_settings.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/firewall_settings.png" width=400>
 
 ## 2.添加firewall rules
 - Firewall- Firwall Rules->create a Firewall rule
@@ -391,9 +391,9 @@ mobile.xxx.com. 0	IN	A	198.41.214.162
 - URL Path Value填写翻墙的path
 - action则为Allow
 
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/firewall_rules.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/firewall_rules.png" width=400>
 
 # 3.添加来自某个国家的ip进行放行
 
 - Firewall->Tools
-<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master/fodder/firewall_settings_tools.png" width=400>
+<img src="https://raw.githubusercontent.com/mack-a/v2ray-agent/master_backup/fodder/firewall_settings_tools.png" width=400>
